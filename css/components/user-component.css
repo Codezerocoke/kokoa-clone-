@@ -53,3 +53,20 @@
     margin-bottom: 10px;
     display: block;
   }
+
+  .user-component__text{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+
+  }
+
+  .user-component__text span{
+  position: absolute;
+  right: -15px;
+  bottom: 2px;
+  border: 2px solid red;
+  border-radius: 100%;
+  padding: 3px;
+  color: red;
+}
